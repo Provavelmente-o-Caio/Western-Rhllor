@@ -1,0 +1,56 @@
+essos_group {
+    	western_rhllor = {
+		graphical_culture = rhllorgfx
+		
+		interface_skin = { rhllor_interface indian_interface muslim_interface }
+		
+		icon = 3
+		heresy_icon = 3
+		color = { 0.9 0.2 0.3 } #red
+		
+		character_modifier = {
+			dragon_hatching = 0.25
+			dragon_taming = 0.25
+		}
+		
+		high_god_name = GOD_GOD_OF_LIGHT
+		
+		god_names = {
+			GOD_RHLLOR GOD_GOD_OF_LIGHT GOD_THE_HOLY_FIRE
+		}
+		evil_god_names = {
+			GOD_THE_GREAT_OTHER String_Lord_of_Darkness String_Heart_of_Cold String_God_of_Death
+		}
+		crusade_name = "HOLY_WAR"
+		scripture_name = THE_FIRE
+		priest_title = job_spiritual_rhllor
+		
+		max_consorts = 7
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 1
+		
+        investiture = yes
+        can_excommunicate = yes
+		can_grant_divorce = yes
+		#can_grant_invasion_cb = no
+		can_have_antipopes = no	
+		priests_can_inherit = no
+		rel_head_defense = yes
+		can_grant_claim = no
+		can_call_crusade = no
+		female_temple_holders = yes # Speculation, but we know at least one red priestess
+		
+		priests_can_inherit = no
+		
+        intermarry = the_seven
+        intermarry = old_gods
+		intermarry = old_gods_reformed
+		intermarry = valyrian_rel
+		intermarry = valyrian_rel_reformed
+
+        character_modifier = {
+            westerosi_religion_opinion = 10
+        }
+	}
+}
