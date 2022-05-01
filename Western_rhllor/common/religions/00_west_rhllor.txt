@@ -40,6 +40,9 @@ essos_group {
 		can_grant_claim = no
 		can_call_crusade = no
 		female_temple_holders = yes # Speculation, but we know at least one red priestess
+
+        ai_convert_other_group = 1
+        ai_convert_same_group = 2
 		
 		priests_can_inherit = no
 		
